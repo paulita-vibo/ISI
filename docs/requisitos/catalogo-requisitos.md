@@ -280,7 +280,7 @@ FR-017 se conserva para no perder el identificador histórico, pero su estado es
 | --- | --- | --- | --- | --- | --- | --- |
 | NFR-07 |NFR-Q (Eficiencia; Escalabilidad; Mantenibilidad) |La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización.| G | -  | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | - |
 | NFR-01 |NFR- I | El sistema debe admitir en su primera versión los idiomas gallego y castellano , por lo que todos los textos de navegación, formularios, validaciones y mensajes de la interfaz se mostrarán Íntegramente en el idioma seleccionado|G|-| Revisando todas las pantallas y mensajes de la primera versión en ambos idiomas 
-| NFR-02 |NFR- 
+| NFR-02 |NFR- C | La plataforma web debe estar disponible las 24 horas del día, con una disponibilidad mínima del 99.5% en cada mes natural.| |-|Un sistema externo a la plataforma realiza una comprobación, cada cinco minutos, automática y esta se considerará erróneo cuando no sea posible acceder a la plataforma o utilizar sus funciones principales
 
 Categorías y atributos: 
 1) Requisitos de calidad (NFR-Q): Rendimiento, Usabilidad, Seguridad, Fiabilidad, Disponibilidad, Modificabilidad, Portabilidad, Eficiencia, Escalabilidad, Verificabilidad / Testabilidad, Robustez, Seguridad funcional (safety), Integridad, Reusabilidad, Instalabilidad.
