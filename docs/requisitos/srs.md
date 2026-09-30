@@ -268,6 +268,16 @@ enlazar a los términos de esta sección, pero no los definirá de nuevo.
 
 | Término | Definición en Proyecto Simbiosis | Fuente |
 | --- | --- | --- |
+| **Registro estándar** | Proceso mediante el cual una persona crea una cuenta proporcionando nombre completo, alias, correo electrónico, teléfono y contraseña. |  2.1. Datos y modalidades de registro |
+| **Alias e identidad visible** | Nombre público que identifica a la persona en el foro y otros espacios públicos. Debe ser obligatorio, único, tener al menos 3 caracteres y no contener espacios. | 2.1 y  2.2 |
+| **Unicidad de cuenta** | Regla que establece que el alias y el correo electrónico deben ser únicos para evitar duplicidades. | 2.2. Unicidad y validación de campos |
+| **Autenticación mediante Google** | Modalidad de registro que permite crear o vincular una cuenta utilizando Google, sin introducir inicialmente correo y contraseña locales. | 2.1. Datos y modalidades de registro |
+| **Verificación y activación del correo** | Proceso mediante el cual la persona confirma su dirección de correo mediante un enlace. La cuenta no se considera activa hasta completar esta verificación. |  2.4. Confirmación de correo y finalización del registro |
+| **Validación de datos y mensajes de error** | Comprobación de que los datos introducidos cumplen las reglas establecidas, mostrando errores junto al campo correspondiente y explicando cómo corregirlos. |  2.2. Unicidad y validación de campos |
+| **Seguridad del registro** | Conjunto de medidas para proteger el alta, incluyendo requisitos de contraseña y CAPTCHA con alternativa de audio. |  2.3. Contraseña y seguridad frente a registros automatizados |
+| **Consentimiento legal** | Aceptación obligatoria y separada de los términos y condiciones y de la política de privacidad para completar el registro. |  2.5. Condiciones legales y comunicaciones |
+| **Acreditación profesional** | Proceso mediante el cual una persona que solicita un perfil profesional aporta documentación oficial en PDF, de hasta 10 MB, que debe ser revisada y aprobada manualmente. |  2.6. Registro de profesionales |
+| **Estado y trazabilidad de la activación** | Control del estado de la cuenta y registro de la fecha y hora en UTC en que se confirma la verificación del correo y se completa el registro. |  2.4. Confirmación de correo y  5. Impacto esperado en la línea base |
 
 ## 10. Modelos de análisis
 
