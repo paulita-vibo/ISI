@@ -223,39 +223,63 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
 
 ### 6.1 Descripción detallada UC-05 — Actualizar perfil
 
-**Identificador y nombre del caso de uso:** [Indica el caso.]
+**Identificador y nombre del caso de uso:** Actualización del perfil
 
-**Objetivo:** [Explica qué resultado pretende obtener el participante.]
+**Objetivo:** La persona quiere actualizar su propio perfil (datos personales, datos de contacto y preferencias dietéticas) y conservar los cambios.
 
-**Participantes:** [Indica el actor principal y los actores de apoyo, si los hay.]
+**Participantes:** Actor principal: Usuario registrado con una cuenta activa y una sesión iniciada ; Actores de apoyo:No se indican 
 
-**Precondiciones:** [Indica qué se da por cumplido al comenzar. Las comprobaciones que realiza el sistema pertenecen al flujo.]
+**Precondiciones:** El usuario dispone de una cuenta activa y sesión iniciada.
 
-**Inicio:** [Indica qué acción o suceso inicia el caso.]
+**Inicio:** La persona selecciona la funcionalidad de actualizar el perfil 
 
-**Escenario principal de éxito:** [Describe la secuencia entre los participantes y el sistema.]
+**Escenario principal de éxito:** 
+El usuario accede a la funcionalidad de actualización del perfil.
+El sistema muestra el nombre completo, el teléfono, la dirección postal y las preferencias dietéticas, guardados del perfil.
+El sistema muestra el alias y el correo electrónico como datos de consulta, sin permitir su modificación.
+El usuario modifica los valores que desea y puede actualizar.
+El usuario solicita guardar los cambios.
+El sistema valida los datos introducidos según las restricciones del acta 
+El sistema guarda conjuntamente los cambios realizados.
+El sistema confirma que el perfil se ha actualizado correctamente.
+El caso de uso finaliza
 
-**Extensiones (flujos alternativos):** [Vincula cada variación a un paso. Indica cómo continúa o termina.]
+**Extensiones (flujos alternativos):**
+5.a. Falta un dato obligatorio o un dato no cumple su formato 
+*.a. El usuario cancela antes de guardar 
+6.a El sistema no se puede guardar
 
-**Postcondiciones:** [Indica qué queda establecido con éxito y qué se conserva o cambia si el caso termina sin éxito o se cancela. Una consulta no requiere modificar datos para alcanzar su objetivo.]
-
+**Postcondiciones:** 
+-Con exito: 
+El perfil contiene los cambios guardados y el usuario recibe la confirmación
+El alias y el correo electrónico mantienen sus valores 
+-Sin éxito o con cancelación: 
+El perfil conserva los valores anteriores 
+No queda una actualización parcial
 **Reglas y NFR pertinentes:** [Remite a los requisitos y actas que condicionan el comportamiento.]
 
 **Preguntas abiertas:** [Registra solo las cuestiones necesarias que las fuentes no resuelvan. Si no hay preguntas para el alcance descrito, indícalo.]
 
 ### 6.2 Descripción detallada UC-21 — Buscar recetas
 
-**Identificador y nombre del caso de uso:** [Indica el caso.]
+**Identificador y nombre del caso de uso:** UC-21· Buscar recetas
 
-**Objetivo:** [Explica qué resultado pretende obtener el participante.]
+**Objetivo:** Permitir al usuario localizar una receta que cumpla sus criterios y consultar su detalle.
 
-**Participantes:** [Indica el actor principal y los actores de apoyo, si los hay.]
+**Participantes:** Actor principal: Usuario registrado con sesión iniciada; Actores de apoyo: no se especifican
 
-**Precondiciones:** [Indica qué se da por cumplido al comenzar. Las comprobaciones que realiza el sistema pertenecen al flujo.]
+**Precondiciones:** 
+El usuario dispone de una cuenta registrada y tiene la sesión iniciada
+El sistema dispone de los nombres de ingredientes que pueden usarse como criterio de búsqueda
 
-**Inicio:** [Indica qué acción o suceso inicia el caso.]
+**Inicio:** El usuario accede a la funcionalidad de búsqueda de recetas 
 
-**Escenario principal de éxito:** [Describe la secuencia entre los participantes y el sistema.]
+**Escenario principal de éxito:**
+El usuario accede a la funcionalidad de búsqueda de recetas 
+El sistema permite introducir una palabra o frase y seleccionar ingredientes que se desean incluir o excluir.
+La persona usuaria introduce los criterios de búsqueda que considera necesarios. Puede añadir o retirar ingredientes seleccionados antes de ejecutar la consulta.
+La persona usuaria solicita ejecutar la búsqueda.
+El sistema comprueba que se haya indicado al menos un criterio y que ningún ingrediente esté seleccionado simultáneamente para incluirlo y excluirlo.
 
 **Extensiones (flujos alternativos):** [Vincula cada variación a un paso. Indica cómo continúa o termina.]
 
