@@ -25,44 +25,44 @@ Como [rol], quiero [capacidad amplia], para [beneficio].
 
 ## US-01
 
-**Título:** [Capacidad]
+**Título:** Buscar por texto
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como usuario, quiero buscar por texto, para hacer busquedas mas precisas.
 
 **Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado un usuario que quiere buscar, cuando esa búsqueda es por texto, entonces el sistema si la palabra o frase aparece en el título o en la descripción breve.
+- **CA-02.**Dado un usuario que quiere buscar, cuando esa búsqueda es por texto y está combinada con ingredientes incluidos y excluídos, entonces el sistema debe mostrar recetas que cumplan todos los criterios
 - **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
 
 ## US-02
 
-**Título:** [Capacidad]
+**Título:** Seleccionar ingredientes a exluir 
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como usuario, quiero excluir ingredientes, para realizar una búsqueda filtrada.
 
 **Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado un usuario que quiere excluir un ingrediente , cuando excluya estos ingredientes, entonces el sistema debe mostrar recetas que no contengan ninguno de esos ingredientes 
 - **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
 - **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
 
 ## US-03
 
-**Título:** [Capacidad]
+**Título:** Buscar ingredientes incluidos
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como usuario registrado, quiero busca una receta mediante unos ingredientes concretos, para poder visualizar recetas según mis gustos.
 
 **Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado un usuario, cuando filtra por ingredientes incluidos, entonces el sistema muestra recetas con todos los ingredientes incluidos.
+- **CA-02.** Dado usuario, cuando selecciona un ingrediente exluido, entonces señala el conflicto.
 - **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
 
 ## Revisión INVEST
